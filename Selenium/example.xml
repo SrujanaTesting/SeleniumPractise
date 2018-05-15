@@ -1,0 +1,29 @@
+<suite name="suite" verbose="5(2 is default value,1to10 is the range,it gives details about execution)" thread-count="3" parallel="classes,methods,tests">
+<parameter>(we can have parameter tag  for Suite level or test level)
+</parameter>
+<test name="test">
+<packages>
+<package name="packagename"/>
+<package name="package name"/>
+"we can include as many packages as we want with package tag"
+</packages>
+<groups>
+<run>
+<include name="Regression"/>
+<exclude name="Sanity(group name that we defined at @Test annotation)"/>
+</run>
+</groups>
+<parameter name="url" value="www.google.com"/>
+<parameter name="username" value="DemoSalesManager"/>
+<parameter name="password" value="crmsfa"/>
+</test>
+<classes>
+<class name="packagename.classname"/>
+<methods>
+<include name="methodname"/>
+<include name="methodname"/>
+<exclude name="methodname"/>
+</methods>
+</classes>
+
+</suite>
