@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7" started-at="2018-05-11T17:11:26Z" finished-at="2018-05-11T17:11:26Z">
+  <suite name="Default suite" duration-ms="28247" started-at="2018-05-31T12:09:31Z" finished-at="2018-05-31T12:09:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7" started-at="2018-05-11T17:11:26Z" finished-at="2018-05-11T17:11:26Z">
-      <class name="practise.LearningAnnotations">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:practise.LearningAnnotations@14ba872]" name="beforeSuite" is-config="true" duration-ms="12" started-at="2018-05-11T17:11:26Z" finished-at="2018-05-11T17:11:26Z">
+    <test name="Default test" duration-ms="28247" started-at="2018-05-31T12:09:31Z" finished-at="2018-05-31T12:09:59Z">
+      <class name="testcases.RedBus">
+        <test-method status="PASS" signature="redbus()[pri:0, instance:testcases.RedBus@968a59]" name="redbus" duration-ms="28214" started-at="2018-05-31T12:09:31Z" finished-at="2018-05-31T12:09:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:practise.LearningAnnotations@14ba872]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-05-11T17:11:26Z" finished-at="2018-05-11T17:11:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:practise.LearningAnnotations@14ba872]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-05-11T17:11:26Z" finished-at="2018-05-11T17:11:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:practise.LearningAnnotations@14ba872]" name="afterSuite" is-config="true" duration-ms="1" started-at="2018-05-11T17:11:26Z" finished-at="2018-05-11T17:11:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- practise.LearningAnnotations -->
+        </test-method> <!-- redbus -->
+      </class> <!-- testcases.RedBus -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
