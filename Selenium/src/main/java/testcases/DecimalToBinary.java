@@ -10,7 +10,7 @@ String s="";
 System.out.println("eneter decimal num");
 Scanner scan=new Scanner(System.in);
 decimalNum=scan.nextInt();
-while(decimalNum>0)
+while(decimalNum>1)
 {
 	rem=decimalNum%2;
 	s=s+Integer.toString(rem);
